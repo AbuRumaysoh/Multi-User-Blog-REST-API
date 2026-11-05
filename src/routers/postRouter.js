@@ -9,7 +9,7 @@ import {
   deletePost,
 } from "../controllers/postcontroller.js";
 import { authMiddleWare } from "../middlewares/authmiddleware.js";
-import { adminMiddleWare } from "../middlewares/adminMiddleWare.js";
+import { adminMiddleWare } from "../middlewares/adminmiddleware.js";
 import upload from "../middlewares/uploadmiddleware.js";
 
 const router = express.Router();
